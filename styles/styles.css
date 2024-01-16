@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* for self */
+    border: 1px solid mediumorchid;
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* header start */
+/* nav */
+.travel {
+    /* for self */
+    /* border: 1px solid maroon; */
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.serene {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.list {
+    /* for self */
+    /* border: 1px solid maroon; */
+
+    display: inline-flex;
+    gap: 30px;
+    list-style: none;
+    padding: 10px 0px;
+    color: #424247;
+    font-family: Mulish;
+    font-size: 18px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+/* banner */
+.banner {
+    /* for self */
+    /* border: 1px solid maroon; */
+
+    height: 500px;
+    background-image: linear-gradient(#131318, #13131800), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    border-radius: 16px;
+}
+
+.banner-heading {
+    padding-top: 100px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.banner-info {
+    text-align: center;
+    padding: 0 250px;
+    color: #FFF;
+    font-family: Mulish;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+
+.form {
+    height: 65px;
+    width: 800px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin: 0 auto;
+}
