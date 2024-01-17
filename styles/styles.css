@@ -3,9 +3,10 @@
     padding: 0;
 }
 
-body {
+header,
+main {
     /* for self */
-    border: 1px solid mediumorchid;
+    /* border: 1px solid mediumorchid; */
 
     max-width: 1200px;
     margin: 0 auto;
@@ -14,9 +15,6 @@ body {
 /* header start */
 /* nav */
 .travel {
-    /* for self */
-    /* border: 1px solid maroon; */
-
     display: flex;
     gap: 10px;
     align-items: center;
@@ -260,6 +258,7 @@ nav {
 /* section-three */
 .section-3 {
     margin-top: 40px;
+    margin-bottom: 80px;
 }
 
 .section-3-heading {
@@ -343,3 +342,118 @@ nav {
     background: rgba(233, 68, 68, 0.05);
 }
 
+/* section-4 */
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter-info {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    height: 420px;
+}
+
+.newsletter-heading {
+    padding-top: 50px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+}
+
+.newsletter-pera {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    padding-left: 40px;
+    padding-bottom: 25px;
+    padding-right: 40px;
+}
+
+.newsletter-hr {
+    border: 1px solid rgba(19, 19, 24, 0.10);
+    margin-left: 40px;
+    margin-bottom: 25px;
+    margin-right: 40px;
+}
+
+.newsletter-input {
+    height: 50px;
+    width: 380px;
+    margin-left: 40px;
+    padding-left: 20px;
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.30);
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+    outline: 0;
+    margin-right: 40px;
+    margin-bottom: 25px;
+}
+
+.newsletter-Subscribe {
+    height: 50px;
+    width: 398px;
+    text-align: center;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    outline: 0;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.save {
+    background-color: #FF5400;
+    width: 300px;
+    height: 80px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    position: relative;
+    bottom: 10rem;
+    left: 22rem;
+}
+
+.travel {
+    padding-top: 10px;
+    padding-left: 105px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.save-up {
+    text-align: center;
+    /* padding-left: 90px; */
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+footer{
+    height: 500px;
+    background: rgba(19, 19, 24, 0.05);
+}
