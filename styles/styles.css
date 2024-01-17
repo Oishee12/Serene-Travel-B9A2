@@ -442,6 +442,7 @@ nav {
     line-height: normal;
 }
 
+/* footer */
 footer {
     margin: 0 auto;
     width: 1400px;
@@ -499,7 +500,7 @@ footer {
         margin: 0 auto;
     }
 
-    body{
+    body {
         border: 1px solid mediumorchid;
     }
 
@@ -513,7 +514,7 @@ footer {
     }
 
     .travel {
-        
+
         /* display: flex;
         justify-content: space-between; */
         gap: 2px;
@@ -530,6 +531,7 @@ footer {
         font-family: Mulish;
         font-size: 16px;
     }
+
     .banner {
         width: 90%;
     }
@@ -595,9 +597,9 @@ footer {
 
     .section-1 {
         flex-direction: column;
-    
+
     }
-   
+
     .sect-one-heading {
         text-align: center;
     }
@@ -616,29 +618,29 @@ footer {
         padding: 0;
     }
 
-    ul{
+    ul {
         margin: 0 20px 0 10px;
     }
 
-    .section-1 button{
+    .section-1 button {
         margin-bottom: 40px;
         margin-left: auto;
     }
 
-    .sect-one-img{
+    .sect-one-img {
         padding: 0;
         margin: 0;
     }
 
-    .sect-one-img img{
+    .sect-one-img img {
         width: 96%;
         margin-left: 7px;
     }
-    
+
     .sect-two-heading {
         font-size: 30px;
     }
-    
+
     .sect-two-pera {
         width: 320px;
     }
@@ -647,7 +649,7 @@ footer {
         flex-direction: column;
     }
 
-    .image-one img{
+    .image-one img {
         width: 90%;
         margin-left: 20px;
     }
@@ -656,7 +658,7 @@ footer {
         flex-direction: column;
     }
 
-    .image-two img{
+    .image-two img {
         width: 90%;
         margin-left: 20px;
     }
@@ -665,7 +667,7 @@ footer {
         flex-direction: column;
     }
 
-    .image-three img{
+    .image-three img {
         width: 90%;
         margin-left: 20px;
     }
@@ -682,7 +684,7 @@ footer {
         line-height: 26px;
         margin: 0 auto 40px;
     }
-    
+
     .hotel-service {
         flex-direction: column;
     }
@@ -707,7 +709,7 @@ footer {
     }
 
     .newsletter {
-       flex-direction: column;
+        flex-direction: column;
     }
 
     .newsletter-heading {
@@ -733,10 +735,10 @@ footer {
     .newsletter-Subscribe {
         height: 50px;
         width: 75%;
-       margin-bottom: 20px;
+        margin-bottom: 20px;
     }
-    
-    .newsletter-img img{
+
+    .newsletter-img img {
         margin-top: 30px;
         width: 90%;
         margin-left: 20px;
@@ -764,7 +766,28 @@ footer {
         font-weight: 400;
         line-height: normal;
     }
-    
+
+    footer {
+        width: 100%;
+        height: 100%;
+    }
+
+    footer #serene-travel img {
+        padding-top: 30px;
+        margin-left: 90px;
+    }
+
+    #serene-travel {
+        display: inline;
+        width: 20%;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        padding-top: 80px;
+    }
+
+    .footer-pera {
+        width: 95%;
+    }
     
 
 
