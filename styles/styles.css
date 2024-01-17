@@ -789,8 +789,9 @@ footer {
         width: 95%;
     }
     
-
-
-
-
+    .footer-hr {
+        height: 1px;
+        width: 90%;
+        margin: 50px auto;
+    }
 }
