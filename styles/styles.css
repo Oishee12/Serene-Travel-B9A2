@@ -209,19 +209,19 @@ nav {
     line-height: normal;
 }
 
-#sri{
+#sri {
     position: relative;
-    left: 37%;  
+    left: 37%;
     bottom: 50%;
     color: #FFF;
     font-family: Mulish;
     font-size: 28px;
     font-style: normal;
     font-weight: 800;
-    line-height: normal;  
+    line-height: normal;
 }
 
-.Srilanka-txt{
+.Srilanka-txt {
     position: relative;
     left: 30%;
     bottom: 50%;
@@ -233,9 +233,9 @@ nav {
     line-height: normal;
 }
 
-#bg{
+#bg {
     position: relative;
-    left: 35%;  
+    left: 35%;
     bottom: 50%;
     color: #FFF;
     font-family: Mulish;
@@ -245,9 +245,9 @@ nav {
     line-height: normal;
 }
 
-#bb{
+#bb {
     position: relative;
-    left: 40%;  
+    left: 40%;
     bottom: 50%;
     color: #FFF;
     font-family: Mulish;
@@ -256,3 +256,90 @@ nav {
     font-weight: 800;
     line-height: normal;
 }
+
+/* section-three */
+.section-3 {
+    margin-top: 40px;
+}
+
+.section-3-heading {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.section-3-pera {
+    width: 645px;
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    line-height: 26px;
+    margin: 0 auto 40px;
+}
+
+/* hotel-service div */
+
+.hotel-service {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.hotel {
+    padding: 15px 70px 15px 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.hotel-img {
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+.hotel-heading {
+    margin-left: 30px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.hotel-pera {
+    width: 485px;
+    margin-left: 30px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.service {
+    padding: 15px 70px 15px 0;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+/* price div */
+
+.price {
+    margin: 0 auto;
+    width: 560px;
+    padding: 15px 50px 15px 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
